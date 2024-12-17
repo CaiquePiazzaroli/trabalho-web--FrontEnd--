@@ -1,0 +1,204 @@
+/* Parte superiror */
+.margin-200-100 {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.presentation-container {
+    content: "";
+    background: linear-gradient(var(--background-fade-color),var(--background-fade-color-transparent) 90%);
+    display: block;
+    height: 100%;
+    display: flex;
+}
+
+.presentation-container > h1 {
+    margin: auto;
+    color: var(--font-color-title);
+}
+
+.presentation {
+    height: 60vh;
+    background-image: url("../assets/resort13offer.jpg");
+    background-size:cover;
+    background-position: center bottom;
+    position: relative;
+}
+
+.about-main-info {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1110px;
+    margin: auto;
+    justify-content: center;
+}
+
+.about-main-info-container {
+    padding: 20px;
+}
+
+.single-about-info {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.single-about-info > h2 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-block-end: 10px;
+    margin-block-start: 0px;
+    margin-bottom: 10px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top: 0px;
+    text-align: "left";
+    text-size-adjust: 100%;
+    
+}
+
+.single-about-info > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    color: var(--branco-transparente);
+}
+
+
+/* Container Principal */
+.container-blog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.container-news {
+    flex: 2; /* Ocupa mais espaço */
+}
+
+.news-card {
+    background-color: var(--background-color-card);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.news-card img {
+    width: 100%;
+    height: auto;
+}
+
+.news-card .news-content {
+    padding: 15px;
+}
+
+.news-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--text-title-h3-item);
+}
+
+.news-card p {
+    font-size: 1rem;
+    color: var(--text-p-item);
+    margin-bottom: 10px;
+}
+
+.news-footer {
+    font-size: 0.9rem;
+    color: var(--text-footer-item);
+}
+
+/* Sidebar */
+.container-aside {
+    flex: 1; /* Ocupa menos espaço */
+    padding: 0 20px 0px 20px;
+    height: fit-content;
+}
+
+.aside-item {
+    background-color: var(--background-color-aside-item);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilização da Pesquisa */
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Categorias */
+.categories h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: var(--text-title-h3-item);
+}
+
+.categories ul {
+    list-style: none;
+}
+
+.categories li {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.categories a {
+    text-decoration: none;
+    color:  var(--font-subitens-color);
+}
+
+.categories a:hover {
+    color: var(--text-title-h3-item);
+}
+        
+
+/* Recent Posts */
+.recent-posts h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: var(--text-title-h3-item);
+}
+
+.recent-post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.recent-post img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.recent-post .post-details h4 {
+    font-size: 1rem;
+    color: var(--text-title-h3-item);
+}
+
+.recent-post .post-details span {
+    font-size: 0.9rem;
+    color:  var(--font-subitens-color);
+}
+
+
+@media only screen and (min-width:768px){
+    .about-main-info-container {
+        max-width: 50%;
+    }
+    
+    
+}

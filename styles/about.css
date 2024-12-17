@@ -1,0 +1,74 @@
+.margin-200-100 {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.presentation-container {
+    content: "";
+    background: linear-gradient(var(--background-fade-color),var(--background-fade-color-transparent) 90%);
+    display: block;
+    height: 100%;
+    display: flex;
+}
+
+.presentation-container > h1 {
+    margin: auto;
+    color: var(--font-color-title);
+}
+
+.presentation {
+    height: 60vh;
+    background-image: url("../assets/resort6.jpg");
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+
+.about-main-info {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1110px;
+    margin: auto;
+    justify-content: center;
+}
+
+.about-main-info-container {
+    padding: 20px;
+}
+
+.single-about-info {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.single-about-info > h2 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-block-end: 10px;
+    margin-block-start: 0px;
+    margin-bottom: 10px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top: 0px;
+    text-align: "left";
+    text-size-adjust: 100%;
+    color: var(--font-color-title-about);
+
+}
+
+.single-about-info > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    color: var(--font-color-p-about);
+}
+
+@media only screen and (min-width:768px){
+    .about-main-info-container {
+        max-width: 50%;
+    }
+    
+    
+}

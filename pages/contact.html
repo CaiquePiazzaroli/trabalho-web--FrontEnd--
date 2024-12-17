@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resort</title>
+        <link rel="stylesheet" href="../styles/general.css">
+        <link rel="stylesheet" href="../styles/header.css">
+        <link rel="stylesheet" href="../styles/navbar.css">
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/article-about.css">
+        <link rel="stylesheet" href="../styles/article-offers.css">
+        <link rel="stylesheet" href="../styles/article-video.css">
+        <link rel="stylesheet" href="../styles/article-feature-rooms.css">
+        <link rel="stylesheet" href="../styles/contact.css">
+        <link rel="stylesheet" href="../styles/footer.css">
+        <link rel="stylesheet" href="../styles/switch-theme.css">
+    </head>
+    <body>
+        <!-- Cabeçalho Header -->
+        <header class="header-room">
+                <!-- Nav - Barra de navegação -->
+                <nav class="nav">
+                    <div class="nav-visible">
+                        <a id="button-menu"><img src="../assets/menu_icon.png" alt="icone de menu"></a>
+                        <img id="logo-icon" src="../assets/lumin_logo.png" alt="logo">
+                        <div class="social">
+                            <ul id="social-list">
+                                <li class="social-list-icon"><a href="#"><img src="../assets/insta-icon.png" alt="icone instagram"></a></li>
+                                <li class="social-list-icon"><a href="#"><img src="../assets/face-icon.png" alt="icone fecebook"></a></li>
+                                <li class="social-list-icon"><a href="#"><img src="../assets/twitter-icon.png" alt="icone twitter-icon"></a></li>
+                            </ul>
+                            <a class="button" href="#">Reserve um quarto</a>
+                        </div>
+                    </div>
+                    <div id="nav-invisible">
+                        <ul id="menu-nav-list" class="menu-nav-list">
+                            <li>
+                                <a href="../index.html">Home</a><div class="bottom-bar"></div>
+                            </li>
+                            <li><a href="rooms.html">Quartos</a><div class="bottom-bar"></div></li>
+                            <li><a href="about.html">Sobre</a><div class="bottom-bar"></div></li>
+                            <li><a href="blog.html">Blog</a><div class="bottom-bar"></div></li>
+                            <li><a href="contact.html">Contato</a><div class="bottom-bar"></div></li>
+                        </ul>
+                    </div>
+                </nav>
+        </header>
+
+        <!-- Main - Conteúdo principal do documento -->
+        <main class="main">
+
+            <!-- Botao de mudar tema -->
+            <button class="switch-theme-div">
+                <img src="../assets/moon.png" alt="simbolo de uma lua">
+            </button>
+
+            <div  class="presentation">
+                <div class="presentation-container">
+                    <h1 class="titles">Contato</h1>
+                </div>
+            </div >
+
+            <div class="form-section">
+                <div class="form-section-container">
+                    <h2 class="form-section-container-title">Preencha seus dados</h2>
+                    <form class="form"  method="POST" action="https://formsubmit.co/caique405@gmail.com">
+                        <textarea type="text" name="Nome" placeholder="Nome completo" required></textarea>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="text" name="telefone" placeholder="telefone" maxLength="11"required>
+                        <input type="text" name="cep" placeholder="cep" id="cep" 
+                        value="" maxlength="9" onblur="pesquisacep(this.value)" required>
+                        <input type="text" name="cidade" placeholder="cidade" id="cidade" required>
+                        <input type="text" name="bairro" placeholder="bairro" id="bairro" required>
+                        <input type="text" name="logradouro" id="rua" placeholder="logradouro" required>
+                        <button type="submit" value="Enviar" class="button">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- Rodapé do documento - footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="adress">
+                    <h2 class="footer-title">Endereço</h2>
+                    <address class="footer-adress">
+                        <p>Rua das Estrelas, 789, Jardim Virtual <br> 12970-000, Piracaia, SP</p>
+                    </address>
+                </div>
+                <div class="adress">
+                    <h2 class="footer-title">Reservas</h2>
+                    <address class="footer-adress">
+                        <a class="reservation-button" href="mailto:lumin@luminresort.com.br">lumin@luminresort.com.br</a><br/>
+                        <a class="reservation-button" href="tel:+5511975361234">+55 (11) 97536‑1234</a>
+                    </address>
+                </div>
+                <div class="adress">
+                    <h2 class="footer-title">Navegação</h2>
+                    <div id="nav-footer">
+                        <ul id="menu-nav-list-footer" class="menu-nav-list-footer">
+                            <li>
+                                <a class="nav-item" href="../index.html">Home</a>
+                            </li>
+                            <li><a class="nav-item" href="rooms.html">Quartos</a></li>
+                            <li><a class="nav-item" href="about.html">Sobre</a></li>
+                            <li><a class="nav-item" href="blog.html">Blog</a></li>
+                            <li><a class="nav-item" href="contact.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="adress">
+                    <h2 class="footer-title">Novidades</h2>
+                    <div class="newsletter">
+                        <input id="email" name="email" type="email" maxlength="30" placeholder="Email">
+                        <button class="button" type="submit">Enviar</button>
+                    </div>
+                    <p id="newsletter-description">Inscreva-se para receber atualizações!</p>
+                </div>
+                
+            </div>
+            <div class="rights">
+                <p>Todos direitos reservados, este site foi construido com base no modelo <a
+                    href="https://preview.colorlib.com/theme/montana/">Colorlib</a></p>
+            </div>
+        </footer>
+    </body>
+
+    <!-- Scripts do documento -->
+    <script src="../scripts/header.js"></script>
+    <script src="../scripts/ViaCepApi.js"></script>
+    <script src="../scripts/switch-theme.js"></script>
+
+</html>
+

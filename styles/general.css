@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    /* Fonts */
+    --fonte-principal: "Raleway", sans-serif;
+
+    /* Colors */
+    --transparente: rgba(255, 255, 255, 0);
+
+    /* Nav e button nav */
+    --color-font-nav: rgb(255, 255, 255);
+    --color-font-button-nav: rgb(255, 255, 255);
+    --cor-background-button-nav: rgb(0, 157, 255);
+    --cor-background-button-nav-hover: rgb(255, 255, 255);
+    --background-navbar-rollDown: rgb(31, 31, 31);
+    --azul-claro-botao: rgb(0, 157, 255);
+
+    /* Carrousel */
+    --color-font-carousel: rgb(255, 255, 255);
+    --background-color-button-carousel: rgb(145, 145, 145);
+
+    /* About */
+    --font-top-span-about-color: rgb(0, 157, 255);
+    --font-title-about-color: rgb(31, 31, 31);
+    --font-desc-about-color: rgb(145, 145, 145);
+    --font-btn-about-color: rgb(77, 77, 77);
+    --font-btn-about-color-hover: rgb(0, 157, 255);
+
+    /* Offers */
+    --font-top-span-offer-color: rgb(0, 157, 255);
+    --font-title-offer-color: rgb(31, 31, 31);
+    --font-title-offer-container-color: rgb(31, 31, 31);
+    --font-li-offer-ul-color: rgb(145, 145, 145);
+    --font-btn-offer: rgb(0, 157, 255);
+    --font-btn-offer-hover: rgb(255, 255, 255);
+    --border-btn-offer-color: rgb(0, 157, 255);
+    --background-btn-offer: rgb(255, 255, 255);
+    --background-btn-offer-hover: rgb(0, 157, 255);
+
+    /* article video */
+    --font-video-desc: rgb(255, 255, 255);
+
+    /* Featured rooms */
+    --font-featured-color-span: rgb(0, 157, 255);
+    --font-featured-color-title: rgb(31, 31, 31);
+    --font-featured-color-innetText: rgb(255, 255, 255);
+    --transparent-background-image-fade: rgba(255, 255, 255, 0);
+    --black-background-image-fade: rgb(31, 31, 31);
+
+    /* Phone contact */
+    --border-color: rgb(145, 145, 145);
+    --font-h2-color: rgb(31, 31, 31);
+    --font-button-color-phone: rgb(255, 255, 255);
+    --font-button-color-phone-hover: rgb(0, 157, 255);
+    --background-button-color-phone: rgb(0, 157, 255);
+    --background-button-color-phone-hover: rgb(255, 255, 255);
+    --button-margin-color-phone: rgb(0, 157, 255);
+
+    /* Pages: room, contact, about, blog */
+    --background-fade-color:rgb(31, 31, 31);
+    --background-fade-color-transparent:rgba(255, 255, 255, 0);
+    --font-color-title: rgb(255, 255, 255);
+
+    /* About page */
+    --font-color-title-about: rgb(31, 31, 31);
+    --font-color-p-about: rgb(145, 145, 145);
+
+    /* form */ 
+    --font-title-form-color:rgb(31, 31, 31);
+    --form-input-border-color:rgb(0, 157, 255);
+
+    /* Blog */
+    --background-color-card: #fff;
+    --background-color-aside-item: rgb(251, 249, 255);
+    --text-title-h3-item: rgb(31, 31, 31);
+    --text-p-item: rgb(31, 31, 31);
+    --text-footer-item:rgb(145, 145, 145);
+
+    /* Footer */
+    --background-color-footer: rgb(31, 31, 31);
+    --font-color-footer: rgb(255, 255, 255);
+    --font-color-sub-itens: rgb(145, 145, 145);
+
+    
+}
+
+.dark{
+
+    background-color: rgb(0, 0, 0);
+
+    /* Fonts */
+    --fonte-principal: "Raleway", sans-serif;
+
+    /* Colors */
+    --transparente: rgba(255, 255, 255, 0);
+
+    /* Nav e button nav */
+    --color-font-nav: rgb(255, 255, 255);
+    --color-font-button-nav: rgb(255, 255, 255);
+    --cor-background-button-nav: rgb(0, 157, 255);
+    --cor-background-button-nav-hover: rgb(255, 255, 255);
+    --background-navbar-rollDown: rgb(0, 0, 0);
+    --azul-claro-botao: rgb(0, 157, 255);
+
+    /* Carrousel */
+    --color-font-carousel: rgb(255, 255, 255);
+    --background-color-button-carousel: rgb(45, 45, 45);
+
+    /* About */
+    --font-top-span-about-color: rgb(255, 255, 255);
+    --font-title-about-color: rgb(0, 157, 255);
+    --font-desc-about-color: rgb(228, 228, 228);
+    --font-btn-about-color: rgb(77, 77, 77);
+    --font-btn-about-color-hover: rgb(0, 157, 255);
+
+    /* Offers */
+    --font-top-span-offer-color: rgb(255, 255, 255);
+    --font-title-offer-color: rgb(0, 157, 255);
+    --font-title-offer-container-color: rgb(0, 157, 255);
+    --font-li-offer-ul-color: rgb(228, 228, 228);
+    --font-btn-offer: rgb(255, 255, 255);
+    --font-btn-offer-hover: rgb(0, 157, 255);
+    --border-btn-offer-color: rgb(0, 157, 255);
+    --background-btn-offer: rgb(0, 157, 255);
+    --background-btn-offer-hover: rgb(255, 255, 255);
+
+    /* article video */
+    --font-video-desc: rgb(255, 255, 255);
+
+    /* Featured rooms */
+    --font-featured-color-span: rgb(255, 255, 255);
+    --font-featured-color-title: rgb(0, 157, 255);
+    --font-featured-color-innetText: rgb(255, 255, 255);
+    --transparent-background-image-fade: rgba(255, 255, 255, 0);
+    --black-background-image-fade: rgb(31, 31, 31);
+
+    /* Phone contact */
+    --border-color: rgb(145, 145, 145);
+    --font-h2-color: rgb(255, 255, 255);
+    --font-button-color-phone: rgb(255, 255, 255);
+    --font-button-color-phone-hover: rgb(0, 157, 255);
+    --background-button-color-phone: rgb(0, 157, 255);
+    --background-button-color-phone-hover: rgb(255, 255, 255);
+    --button-margin-color-phone: rgb(0, 157, 255);
+
+     /* form */ 
+     --font-title-form-color:rgb(0, 157, 255);
+     --form-input-border-color:rgb(0, 157, 255);
+
+     /* About page */
+    --font-color-title-about: rgb(0, 157, 255);
+    --font-color-p-about: rgb(255, 255, 255);
+
+      /* Blog */
+    --background-color-card: rgb(31, 31, 31);
+    --background-color-aside-item: rgb(31, 31, 31);
+    --text-title-h3-item: rgb(0, 157, 255);
+    --text-p-item: rgb(255, 255, 255);
+    --font-subitens-color:rgb(255, 255, 255);
+    --text-footer-item:rgb(255, 255, 255);
+
+
+    /* Footer */
+    --background-color-footer: rgb(0, 0, 0);
+    --font-color-footer: rgb(255, 255, 255);
+    --font-color-sub-itens: rgb(145, 145, 145);
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    list-style-type: none;
+}
+
+.button {
+    background-color: var(--cor-background-button-nav);
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid var(--cor-background-button-nav);
+    font-weight: 400;
+    color: var(--color-font-button-nav);
+}
+
+.button:hover {
+    background-color: var(--cor-background-button-nav-hover);
+    color: var(--azul-claro-botao);
+    border: 2px solid var(--azul-claro-botao);
+}
+
+.button-white {
+    display: inline-block;
+    background-color: var(--background-btn-offer);
+    color: var(--font-btn-offer);
+    border: 2px solid var(--border-btn-offer-color);
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-white:hover {
+    background-color: var(--background-btn-offer-hover);
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid var(--azul-claro-botao);
+    color: var(--font-btn-offer-hover);
+}
+
+.titles {
+    color: var(--branco-fonte);
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;
+}

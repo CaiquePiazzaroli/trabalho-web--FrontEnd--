@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort</title>
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/article-about.css">
+    <link rel="stylesheet" href="../styles/article-offers.css">
+    <link rel="stylesheet" href="../styles/article-video.css">
+    <link rel="stylesheet" href="../styles/article-feature-rooms.css">
+    <link rel="stylesheet" href="../styles/blog.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/switch-theme.css">
+</head>
+
+<body>
+    <!-- Cabeçalho Header -->
+    <header class="header-room">
+        <!-- Nav - Barra de navegação -->
+        <nav class="nav">
+            <div class="nav-visible">
+                <a id="button-menu"><img src="../assets/menu_icon.png" alt="icone de menu"></a>
+                <img id="logo-icon" src="../assets/lumin_logo.png" alt="logo">
+                <div class="social">
+                    <ul id="social-list">
+                        <li class="social-list-icon"><a href="#"><img src="../assets/insta-icon.png"
+                                    alt="icone instagram"></a></li>
+                        <li class="social-list-icon"><a href="#"><img src="../assets/face-icon.png"
+                                    alt="icone fecebook"></a></li>
+                        <li class="social-list-icon"><a href="#"><img src="../assets/twitter-icon.png"
+                                    alt="icone twitter-icon"></a></li>
+                    </ul>
+                    <a class="button" href="#">Reserve um quarto</a>
+                </div>
+
+            </div>
+            <div id="nav-invisible">
+                <ul id="menu-nav-list" class="menu-nav-list">
+                    <li>
+                        <a href="../index.html">Home</a>
+                        <div class="bottom-bar"></div>
+                    </li>
+                    <li><a href="rooms.html">Quartos</a>
+                        <div class="bottom-bar"></div>
+                    </li>
+                    <li><a href="about.html">Sobre</a>
+                        <div class="bottom-bar"></div>
+                    </li>
+                    <li><a href="blog.html">Blog</a>
+                        <div class="bottom-bar"></div>
+                    </li>
+                    <li><a href="contact.html">Contato</a>
+                        <div class="bottom-bar"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main - conteudo principal do documento -->
+    <div class="main-blog">
+        <!-- Botao de alteração de cores -->
+        <button class="switch-theme-div">
+            <img src="../assets/moon.png" alt="simbolo de uma lua">
+        </button>
+
+        <!-- Apresentação da página -->
+        <div class="presentation">
+            <div class="presentation-container">
+                <h1 class="titles">Blog</h1>
+            </div>
+        </div>
+
+        <!-- Container Principal -->
+        <section class="container-blog">
+            <!-- Notícias -->
+            <main class="container-news">
+                <!-- Notícia 1 -->
+                <div class="news-card">
+                    <img src="../assets/pool.jpg" alt="Notícia 1">
+                    <div class="news-content">
+                        <h2>Nova piscina com borda infinita é inaugurada no Resort</h2>
+                        <p>Grand Paradise Resort acaba de inaugurar uma piscina de borda infinita com vista panorâmica para o mar. O novo espaço
+                        oferece áreas de descanso exclusivas e serviço de bar premium..</p>
+                        <div class="news-footer">Travel, Lifestyle | 03 Comments</div>
+                    </div>
+                </div>
+
+                <!-- Notícia 2 -->
+                <div class="news-card">
+                    <img src="../assets/gastronomy.jpg" alt="Notícia 2">
+                    <div class="news-content">
+                        <h2>Festival Gastronômico Internacional começa neste fim de semana</h2>
+                        <p>
+                            Chefs renomados de todo o mundo participam do Festival Gastronômico no Grand Paradise Resort, oferecendo experiências únicas com pratos exclusivos e harmonização de vinhos.
+                        </p>
+                        <div class="news-footer">Technology | 12 Comments</div>
+                    </div>
+                </div>
+
+                <!-- Notícia 3 -->
+                <div class="news-card">
+                    <img src="../assets/spa.jpg" alt="Notícia 2">
+                    <div class="news-content">
+                        <h2>Spa do resort é renovado e apresenta novos tratamentos de luxo</h2>
+                        <p>
+                            O Spa Grand Relax agora conta com novos tratamentos terapêuticos, como massagens com óleos essenciais e experiências relaxantes em salas com vista para a natureza.</p>
+                        <div class="news-footer">Technology | 12 Comments</div>
+                    </div>
+                </div>
+
+            </main>
+
+            <!-- Barra Lateral -->
+            <aside class="container-aside">
+
+                <!-- Caixa de Pesquisa -->
+                <section class="search-box aside-item">
+                    <input type="text" placeholder="Buscar palavra chave">
+                    <button class="button-white button-offer">Pesquisar</button>
+                </section>
+
+                <!-- Categorias -->
+                <section class="categories aside-item">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li><a href="#">Restaurantes e comida (37)</a></li>
+                        <li><a href="#">Notícias de viagens (10)</a></li>
+                        <li><a href="#">Estilo de vida (25)</a></li>
+                        <li><a href="#">Tecnologia (12)</a></li>
+                    </ul>
+                </section>
+
+                <!-- Recent Posts -->
+                <section class="recent-posts aside-item">
+                    <h3>Recent Post</h3>
+                    <div class="recent-post">
+                        <img src="https://via.placeholder.com/60" alt="Post 1">
+                        <div class="post-details">
+                            <h4>From life was you fish...</h4>
+                            <span>January 12, 2019</span>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <img src="https://via.placeholder.com/60" alt="Post 2">
+                        <div class="post-details">
+                            <h4>The Amazing Hubble</h4>
+                            <span>02 Hours ago</span>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <img src="https://via.placeholder.com/60" alt="Post 3">
+                        <div class="post-details">
+                            <h4>Astronomy Or Astrology</h4>
+                            <span>03 Hours ago</span>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <img src="https://via.placeholder.com/60" alt="Post 4">
+                        <div class="post-details">
+                            <h4>Asteroids telescope</h4>
+                            <span>01 Hours ago</span>
+                        </div>
+                    </div>
+                </section>
+
+            </aside>
+            
+        </section>
+        
+        <!-- Rodapé da página -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="adress">
+                    <h2 class="footer-title">Endereço</h2>
+                    <address class="footer-adress">
+                        <p>Rua das Estrelas, 789, Jardim Virtual <br> 12970-000, Piracaia, SP</p>
+                    </address>
+                </div>
+                <div class="adress">
+                    <h2 class="footer-title">Reservas</h2>
+                    <address class="footer-adress">
+                        <a class="reservation-button"
+                            href="mailto:lumin@luminresort.com.br">lumin@luminresort.com.br</a><br />
+                        <a class="reservation-button" href="tel:+5511975361234">+55 (11) 97536‑1234</a>
+                    </address>
+                </div>
+                <div class="adress">
+                    <h2 class="footer-title">Navegação</h2>
+                    <div id="nav-footer">
+                        <ul id="menu-nav-list-footer" class="menu-nav-list-footer">
+                            <li>
+                                <a class="nav-item" href="../index.html">Home</a>
+                            </li>
+                            <li><a class="nav-item" href="rooms.html">Quartos</a></li>
+                            <li><a class="nav-item" href="about.html">Sobre</a></li>
+                            <li><a class="nav-item" href="blog.html">Blog</a></li>
+                            <li><a class="nav-item" href="contact.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="adress">
+                    <h2 class="footer-title">Novidades</h2>
+                    <div class="newsletter">
+                        <input id="email" name="email" type="email" maxlength="30" placeholder="Email">
+                        <button class="button" type="submit">Enviar</button>
+                    </div>
+                    <p id="newsletter-description">Inscreva-se para receber atualizações!</p>
+                </div>
+
+            </div>
+            <div class="rights">
+                <p>Todos direitos reservados, este site foi construido com base no modelo <a
+                        href="https://preview.colorlib.com/theme/montana/">Colorlib</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+<!-- Scripts -->
+<script src="../scripts/header.js"></script>
+<script src="../scripts/carousel.js"></script>
+<script src="../scripts/roomsFeature.js"></script>
+<script src="../scripts/switch-theme.js"></script>
+
+</html>

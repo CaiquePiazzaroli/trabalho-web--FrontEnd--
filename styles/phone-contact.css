@@ -1,0 +1,39 @@
+.contact-number {
+    margin: 60px 20px 60px 20px;
+}
+
+.contact-number-container {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid var(--border-color);
+    padding: 26px;
+    max-width: 768px;
+    margin: auto;
+}
+
+.contact-number-container > h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: var(--font-h2-color);
+}
+
+.contact-number-container > a {
+    background-color: var(--background-button-color-phone);
+    color: var(--font-button-color-phone);
+    border: 1px solid var(--button-margin-color-phone);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+
+.contact-number-container > a:hover {
+    background-color: var(--background-button-color-phone-hover);
+    color: var(--font-button-color-phone-hover);
+}
+
+
+@media only screen and (min-width:768px) {
+
+}
