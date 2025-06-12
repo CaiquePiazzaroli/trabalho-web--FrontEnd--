@@ -1,6 +1,7 @@
 # Projeto Semestral de Desenvolvimento Web
 
-Este projeto foi desenvolvido com base no modelo
-que pode ser encontrado em: https://colorlib.com/wp/template/montana/
+Projeto front-end desenvolvido no curso de Análise e desenvolvimento de sistemas como requisito obrigatório para a conclusão da matéria de desenvolvimento web I.
 
-Veja o site ao vivo em: https://preview.colorlib.com/#montana
+A versão live pode ser acessado em: https://trabalho-web-front-end.vercel.app/
+
+Você também pode baixar este repositório em sua máquina para testá-lo.
